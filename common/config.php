@@ -8,6 +8,7 @@ define('PASSWORD', '1234');
 //define('USER', 'xs618728_pcadmin');
 //define('PASSWORD', 'hR.kA4zEavY5NZr');
 
+
 define('EXTENSION_IMAGE', ['jpg','JPG', 'jpeg', 'png', 'PNG', 'gif', 'webp']);
 define('EXTENSION_PDF', ['pdf']);
 
