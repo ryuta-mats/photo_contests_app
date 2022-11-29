@@ -46,9 +46,9 @@ https://xs618728.xsrv.jp/photo_contests_app/admin/index.php
 
 ## ベーシック認証
 
-User admin
+User: admin
 
-Pass niseko
+Pass: niseko
 
 
 ## データベースとユーザーの作成
