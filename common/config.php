@@ -1,20 +1,20 @@
 <?php
 
-define('DSN', 'mysql:host=db;dbname=nt_photo;charset=utf8');
-define('USER', 'nt_admin');
+define('DSN', 'mysql:host=db;dbname=photo_contests;charset=utf8');
+define('USER', 'photo_contests_admin');
 define('PASSWORD', '1234');
 
-//define('DSN', 'mysql:host=localhost;dbname=xs618728_ntphotoapp;charset=utf8');
-//define('USER', 'ntadmin');
-//define('PASSWORD', 'Q3uZhq.gE67CGEz');
+//define('DSN', 'mysql:host=localhost;dbname=xs618728_photocontests;charset=utf8');
+//define('USER', 'xs618728_pcadmin');
+//define('PASSWORD', 'hR.kA4zEavY5NZr');
 
-define('EXTENSION_IMAGE', ['jpg', 'jpeg', 'png', 'gif', 'webp']);
+define('EXTENSION_IMAGE', ['jpg','JPG', 'jpeg', 'png', 'PNG', 'gif', 'webp']);
 define('EXTENSION_PDF', ['pdf']);
 
 
-define('MSG_NO_DESCRIPTION', '詳細を入力してください');
+define('MSG_NO_DESCRIPTION', '写真の詳細を入力してください');
 define('MSG_NO_TITLE', '写真のタイトルを入力してください');
-define('MSG_NO_TEAM_NAME', '写真の説明を入力してください');
+define('MSG_NO_TEAM_NAME', 'チーム名を入力してください');
 define('MSG_NO_DATE', '日付を入力してください');
 define('MSG_NO_GROUP_NAME', '団体名を入力してください');
 define('MSG_NOT_ABLE_EXT', '選択したファイルの拡張子が有効ではありません');
